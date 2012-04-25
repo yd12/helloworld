@@ -1,0 +1,22 @@
+#menu1 { border: 1px solid #CCC; height:26px; background: #eee;}
+
+
+body { font-family: Verdana; font-size: 12px; line-height: 1.5; }
+a { color: #000; text-decoration: none; }
+a:hover { color: #F00; }
+#menu { width:80%; height:28px; margin:0 auto; border-bottom:3px solid #E10001;}
+#menu ul { list-style: none; margin: 0px; padding: 0px; }
+#menu ul li { float:left; margin-left:2px;}
+#menu ul li a { display:block; width:87px; height:28px; line-height:28px; text-align:center; background:url(http://www.aa25.cn/upload/2010-06/27/nav_bg2.gif) 0 0 no-repeat; font-size:14px;}
+#menu ul li a:hover { background:url(http://www.aa25.cn/upload/2010-06/27/nav_bg3.gif) 0 0 no-repeat;}
+#menu ul li a#current { background:url(http://www.aa25.cn/upload/2010-06/27/nav_bg1.gif) 0 0 no-repeat; font-weight:bold; color:#fff;}
+#menu ul li ul { border:1px solid #ccc; display:none; position:absolute;}
+#menu ul li ul li { float:none; width:87px; background:#eee; margin:0;}
+#menu ul li ul li a { background:none;}
+#menu ul li ul li a:hover { background:#333; color:#fff;}
+#menu ul li:hover ul { display:block;}
+#menu ul li.sfhover ul { display:block;}
+#p {width:80%; height:28px; margin:0 auto; border-bottom:3px solid #E10001;}
+#x {width:80%; height:28px; margin:0 auto; border-bottom:3px solid #E10001;}
+#nr {width:80%; height:28px; margin:0 auto; border-bottom:5px solid #E10001;}
+#logo {width:80%; height:28px; margin:0 auto; border-bottom:5px solid #E10001;}
